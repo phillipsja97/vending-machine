@@ -9,8 +9,8 @@
   },
 
   "snack2": {
-    "imageUrl": "oreos",
-    "name": "https://target.scene7.com/is/image/Target/GUEST_6ace8742-7e7e-47dd-a8ed-910ce4236d50?wid=488&hei=488&fmt=pjpeg",
+    "imageUrl":"https://target.scene7.com/is/image/Target/GUEST_6ace8742-7e7e-47dd-a8ed-910ce4236d50?wid=488&hei=488&fmt=pjpeg",
+    "name": "oreos",
     "price": 75,
     "currentStocked": 3,
     "lifetimeNum": 6,
