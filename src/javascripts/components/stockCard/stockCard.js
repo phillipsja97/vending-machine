@@ -11,7 +11,8 @@ const makeASnack = (snack) => {
   if (snack.snackPositionId !== '') {
     domString += `<button class="btn btn-danger delete-snack-position" id="${snack.snackPositionId}">Remove from ${snack.position.position}</button>`;
   } else {
-    domString += '<button class="btn btn-success">Add to Machine</button>';
+    domString += `<input type="text" placeholder="A3"/>
+    <button class="btn btn-success add-snack-position" id="${snack.id}">Add to Machine</button>`;
   }
   domString += '</div></div>';
   return domString;
